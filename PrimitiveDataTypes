@@ -1,0 +1,42 @@
+import java.io.*;
+import java.util.Scanner;
+class PrimitiveDataTypes
+{
+static Byte a;
+static short b;
+static int c;
+static long d;
+static float e;
+static double f;
+static char g;
+static boolean h;
+public static void main (String args[])
+	{
+
+Scanner obj=new Scanner(System.in); 
+System.out.print("Byte value: ");
+a=obj.nextByte();
+System.out.print("short value: ");
+b=obj.nextShort();
+System.out.print("int value: ");
+c=obj.nextInt();
+System.out.print("long value: ");
+d=obj.nextLong();
+System.out.print("float value: ");
+e=obj.nextFloat();
+System.out.print("double value: ");
+f=obj.nextDouble();
+System.out.print("char value: ");
+g=obj.next().charAt(0);
+System.out.print("boolean value (true/false): ");
+h=obj.nextBoolean();
+System.out.println("byteVar: "+a);
+System.out.println("shortVar: "+b);
+System.out.println("intVar: "+c);
+System.out.println("longVar: "+d);
+System.out.println("floatVar: "+e);
+System.out.println("doubleVar: "+f);
+System.out.println("charVar: "+g);
+System.out.println("booleanVar: "+h);
+	}
+}
